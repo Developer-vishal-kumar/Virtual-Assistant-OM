@@ -31,7 +31,7 @@ function wishMe(){
 }
 
 window.addEventListener('load', ()=>{
-    speak("Initializing SURU..");
+    speak("Initializing OM..");
     wishMe();
 });
 
@@ -67,13 +67,13 @@ function takeCommand(message) {
         speak("I'm fine, Thank You. How can I help you?");
     }
     else if (message.includes('who are you')) {
-        speak("I'm SURU, Your Personal Assistant. How can I help you?");
+        speak("I'm OM, Your Personal Assistant. How can I help you?");
     }
     else if (message.includes('what can you do')) {
         speak("I can do a lot of things. Just tell me what you want me to do.");
     }
     else if (message.includes('what is your name')) {
-        speak("My name is ZARA.");
+        speak("My name is OM.");
     }
     else if (message.includes('who created you')) {
         speak("I was created by codewithvishal.");
